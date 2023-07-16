@@ -6,12 +6,12 @@ import { Profile } from './Profile/Profile';
 import data from '../configs/data';
 import { Statistics } from './Statistics/Statistics';
 
-
 import friends from '../configs/friends';
 import { FriendList } from './FriendList/FriendList';
 
 import transactions from '../configs/transactions';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+
 export const App = () => {
   return (
     <Container>
